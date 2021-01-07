@@ -1,5 +1,5 @@
 {
-    "extends": ["react-app", "@ackee/eslint-config", "prettier"],
+    "extends": ["react-app", "prettier"],
     "rules": {
         "no-restricted-globals": "off"
     },
