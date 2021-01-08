@@ -1,14 +1,13 @@
-import * as UI from '../ui';
-import Config from '../../config';
+import * as UI from "../ui"
+import Config from "../../config"
 
-export { UI, Config };
+export { UI, Config }
 
-export { default as React } from 'react';
-export { PropTypes } from 'prop-types';
+export { default as React } from "react"
+export { PropTypes } from "prop-types"
 
-export { FelaKeyframe } from 'gatsby-theme-fela';
+export { FormattedMessage } from "gatsby-plugin-intl"
 
-export { connect as connectFela, FelaComponent } from 'react-fela';
+export { FelaKeyframe } from "gatsby-theme-fela"
 
-export { FormattedMessage } from 'gatsby-plugin-intl';
-
+export { connect as connectFela, FelaComponent } from "react-fela"
